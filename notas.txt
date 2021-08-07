@@ -1,0 +1,75 @@
+¿QUÉ ES INTERNET?
+
+La primera cosa que necesitas entender, es que una página web consiste de un puñado de archivos guardados en el disco duro -- como tus películas, música, o imágenes. Sin embargo, hay una parte que es única para los sitios web: ellos incluyen código computarizado llamado HTML.
+
+De hecho, es una red de máquinas interconectadas (los servidores que nombramos anteriormente). ¡Cientos de miles de máquinas! ¡Muchos, muchos kilómetros de cables alrededor del mundo! Puedes visitar el sitio web Submarine Cable Map (http://submarinecablemap.com/) y ver lo complicada que es la red. 
+
+COMANDOS
+
+$whoami 	#muestra el nombre de usuario
+$pwd 		#muestra el directorio actual
+$man pwd    	#Da una descripción del comando que 			escribimos de segundo
+
+
+
+
+Comando (Windows)	Comando (Mac OS / Linux)	Descripción	Ejemplo
+exit	exit	Cierra la ventana	exit
+cd	cd	Cambia el directorio	cd test
+cd	pwd	Mostrar el directorio actual	cd (Windows) o pwd (Mac OS / Linux)
+dir	ls	Lista directorios/archivos	dir
+copy	cp	Copia de archivos	copy c:\test\test.txt c:\windows\test.txt
+move	mv	Mueve archivos	move c:\test\test.txt c:\windows\test.txt
+mkdir	mkdir	Crea un nuevo directorio	mkdir testdirectory
+rmdir (o del)	rm	Eliminar un archivo	del c:\test\test.txt
+rmdir /S	rm -r	Eliminar un Directorio	rm -r testdirectory
+[CMD] /?	man [CMD]	Obtener ayuda para un comando	cd /? (Windows) o man cd (Mac OS / Linux)
+
+
+
+
+PYTHON
+
+
+listas --> []
+diccionarios --> {}
+
+
+
+
+Una función es una secuencia de instrucciones que Python debería ejecutar. Cada función en Python inicia con la palabra clave def, el nombre es dado, y puede tener algunos parámetros
+
+p.ej:
+
+
+def hi():
+    print('Hi there!')
+    print('How are you?')
+
+hi()
+
+
+
+
+Si te sale NameError, probablemente significa que escribiste algo mal, así que deberias comprobar si utilizaste el mismo nombre para crear la función con def hi(): y al llamarla con hi().
+Si te sale un IndentationError, comprueba que las líneas del print tienen el mismo espacio en blanco al comienzo de línea: python requiere que todo el código dentro de la función esté perfectamente alineado.
+Si no hay ninguna salida, comprueba que el último hi() no esté identado - si lo está, esa línea también será parte de la función, y nunca se ejecutará.
+
+
+
+
+
+
+
+
+¿Qué es Django?
+Django (gdh/ˈdʒæŋɡoʊ/jang-goh) es un framework de aplicaciones web gratuito y de código abierto (open source) escrito en Python. Un framework web es un conjunto de componentes que te ayudan a desarrollar sitios web más fácil y rápidamente.
+
+
+
+
+Entonces, ¿qué es un objeto? Es un conjunto de propiedades y acciones. Suena raro, pero te daremos un ejemplo.
+
+Si queremos modelar un gato crearemos un objeto Gato que tiene algunas propiedades como: color, edad, temperamento (como bueno, malo, o dormilón ;)), y dueño (este es un objeto Persona o en caso de un gato callejero, esta propiedad está vacía).
+
+Luego, el Gato tiene algunas acciones como: ronronear, arañar o alimentar (en cuyo caso daremos al gato algo de ComidaDeGato, el cual debería ser un objeto aparte con propiedades como sabor).
